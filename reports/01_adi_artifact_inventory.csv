@@ -1,0 +1,18 @@
+check,value,timestamp
+repo_present,True,2026-07-23T01:58:34
+readme_chars,7219,2026-07-23T01:58:34
+json_files,44,2026-07-23T01:58:34
+yaml_files,7,2026-07-23T01:58:34
+n_entry_points,12,2026-07-23T01:58:34
+n_benchmark_dirs,6,2026-07-23T01:58:34
+local_openweight_support,True,2026-07-23T01:58:34
+n_defenses_mentioned,12,2026-07-23T01:58:34
+license,MIT License,2026-07-23T01:58:34
+workspace_user_task_regs,32,2026-07-23T01:58:34
+workspace_injection_task_regs,14,2026-07-23T01:58:34
+slack_user_task_regs,17,2026-07-23T01:58:34
+slack_injection_task_regs,5,2026-07-23T01:58:34
+banking_user_task_regs,16,2026-07-23T01:58:34
+banking_injection_task_regs,9,2026-07-23T01:58:34
+travel_user_task_regs,20,2026-07-23T01:58:34
+travel_injection_task_regs,7,2026-07-23T01:58:34

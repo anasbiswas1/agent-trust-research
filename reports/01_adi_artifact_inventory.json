@@ -1,0 +1,135 @@
+{
+  "repo_present": true,
+  "file_types": {
+    ".py": 220,
+    ".txt": 66,
+    ".yaml": 30,
+    ".json": 27,
+    ".md": 11,
+    "": 7,
+    ".toml": 2,
+    ".lock": 2,
+    ".sh": 2,
+    ".typed": 1
+  },
+  "readme_chars": 7219,
+  "adi_files": [
+    [
+      "agentdojo/src/agentdojo/scripts/benchmark.py",
+      9
+    ],
+    [
+      "agentdojo/src/agentdojo/agent_pipeline/agent_pipeline.py",
+      8
+    ],
+    [
+      "agentdojo/src/agentdojo/agent_pipeline/llms/local_llm.py",
+      4
+    ],
+    [
+      "llm-benchmark/src/data_injection_bench/cli.py",
+      2
+    ],
+    [
+      "llm-benchmark/src/data_injection_bench/bench_types.py",
+      1
+    ],
+    [
+      "llm-benchmark/src/data_injection_bench/attacks/syntactic.py",
+      1
+    ]
+  ],
+  "suite_counts": {
+    "workspace": {
+      "files": 6,
+      "user_task_regs": 32,
+      "injection_task_regs": 14
+    },
+    "slack": {
+      "files": 6,
+      "user_task_regs": 17,
+      "injection_task_regs": 5
+    },
+    "banking": {
+      "files": 6,
+      "user_task_regs": 16,
+      "injection_task_regs": 9
+    },
+    "travel": {
+      "files": 6,
+      "user_task_regs": 20,
+      "injection_task_regs": 7
+    }
+  },
+  "json_files": 44,
+  "yaml_files": 7,
+  "entry_points": [
+    "agentdojo/extract_tool_schemas.py",
+    "agentdojo/src/agentdojo/default_suites/v1/workspace/user_tasks.py",
+    "agentdojo/src/agentdojo/scripts/benchmark.py",
+    "agentdojo/src/agentdojo/scripts/check_suites.py",
+    "agentdojo/util_scripts/create_results_table.py",
+    "llm-benchmark/data/collection/anonymizer.py",
+    "llm-benchmark/data/collection/collect_github.py",
+    "llm-benchmark/scripts/call_openai.py",
+    "llm-benchmark/scripts/compare_gold.py",
+    "llm-benchmark/scripts/validate_instances.py",
+    "llm-benchmark/src/data_injection_bench/cli.py",
+    "llm-benchmark/src/data_injection_bench/defenses/apply_defense.py"
+  ],
+  "benchmark_dirs": [
+    "agentdojo",
+    "agentdojo/examples/counter_benchmark",
+    "agentdojo/src/agentdojo",
+    "agentdojo/src/agentdojo/agent_pipeline/llms",
+    "llm-benchmark",
+    "llm-benchmark/src/data_injection_bench/eval"
+  ],
+  "models": {
+    "claude": 70,
+    "gemini": 45,
+    "gpt-4o": 35,
+    "gpt-4o-mini": 33,
+    "llamafirewall": 30,
+    "llama": 28,
+    "claude-3-5-sonnet": 21,
+    "gpt-4o-2024-05-13": 20,
+    "gemini-1.5-pro": 20,
+    "claude-3-5-sonnet-20241022": 14,
+    "gpt-4": 10,
+    "llama_firewall_blocked": 9,
+    "gemini-specific": 8,
+    "gpt-4o-2024-08-06": 8,
+    "gpt-4o-mini-2024-07-18": 7,
+    "llamapromptguardclient": 7,
+    "gpt-5.2": 6,
+    "claude-3-7-sonnet-20250219": 5,
+    "gemini-1.5-pro-002": 5,
+    "claude-sonnet-4-20250514": 5
+  },
+  "backends": {
+    "openai": 144,
+    "google": 143,
+    "anthropic": 91,
+    "together": 13,
+    "huggingface": 12,
+    "transformers": 10,
+    "vllm": 3
+  },
+  "local_openweight_support": true,
+  "defenses": {
+    "camel": 38,
+    "progent": 6,
+    "isolategpt": 9,
+    "prompt_guard": 4,
+    "llamafirewall": 8,
+    "spotlight": 3,
+    "tool_filter": 6,
+    "repeat_user_prompt": 2,
+    "transformers_pi_detector": 2,
+    "alignmentcheck": 4,
+    "promptguard": 3,
+    "randomization": 1
+  },
+  "license": "MIT License"
+}

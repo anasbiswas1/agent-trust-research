@@ -1,0 +1,7 @@
+policy,ordering,resolved,attacker_wins
+first,POST,alice@corp.com,False
+first,PRE,attacker@evil.com,True
+last,POST,attacker@evil.com,True
+last,PRE,alice@corp.com,False
+reject,POST,REJECTED,False
+reject,PRE,REJECTED,False

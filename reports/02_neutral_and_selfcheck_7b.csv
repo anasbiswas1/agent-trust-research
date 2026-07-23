@@ -1,0 +1,6 @@
+condition,neutral_suspicion_pct,selfcheck_attack_pct,baseline_attack_pct,mitigation_pp
+BENIGN,0,0,0,0
+CONTROL,100,0,0,0
+POSITION,100,0,0,0
+KEYNAME,100,0,100,100
+ATTACKED,100,45,45,0
